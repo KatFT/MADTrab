@@ -18,6 +18,7 @@ param venus: R C I :=
 			10 10 33 20
 			11 10 20 15
 			12 10 10 12
+			;
 
 #para tabela marte
 param mars: R C I :=
@@ -33,7 +34,7 @@ param mars: R C I :=
 			10 10 43 30
 			11 10 30 25
 			12 10 20 22
-
+			;
 #para tabela mercurio
 param mercury: R C I :=
 			1 8 8 10
@@ -48,8 +49,10 @@ param mercury: R C I :=
 			10 9 23 20
 			11 7 20 15
 			12 6 10 12
+			;
 
 param d: R C I :=
 Cleaning 1000 1535 1750
 Cooking 1850 850 1200
 Packing 750 1500 2000
+;

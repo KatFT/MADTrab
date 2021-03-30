@@ -1,7 +1,7 @@
 Problem:    trab
-Rows:       145
+Rows:       73
 Columns:    108
-Non-zeros:  540
+Non-zeros:  324
 Status:     OPTIMAL
 Objective:  revenue = 875600 (MAXimum)
 
@@ -44,222 +44,42 @@ Objective:  revenue = 875600 (MAXimum)
     35 LVenus[10]   B            800                        1000 
     36 LVenus[11]   B            800                        1000 
     37 LVenus[12]   B            800                        1000 
-    38 CapR[1,Cleaning]
-                    NU           750                         750            12 
-    39 CapR[1,Cooking]
-                    B            750                         750 
-    40 CapR[1,Packing]
-                    B            750                         750 
-    41 CapR[2,Cleaning]
-                    NU           750                         750            10 
-    42 CapR[2,Cooking]
-                    B            750                         750 
-    43 CapR[2,Packing]
-                    B            750                         750 
-    44 CapR[3,Cleaning]
-                    NU           750                         750            10 
-    45 CapR[3,Cooking]
-                    B            750                         750 
-    46 CapR[3,Packing]
-                    B            750                         750 
-    47 CapR[4,Cleaning]
-                    NU           750                         750            10 
-    48 CapR[4,Cooking]
-                    B            750                         750 
-    49 CapR[4,Packing]
-                    B            750                         750 
-    50 CapR[5,Cleaning]
-                    NU           750                         750            22 
-    51 CapR[5,Cooking]
-                    B            750                         750 
-    52 CapR[5,Packing]
-                    B            750                         750 
-    53 CapR[6,Cleaning]
-                    NU           750                         750            22 
-    54 CapR[6,Cooking]
-                    B            750                         750 
-    55 CapR[6,Packing]
-                    B            750                         750 
-    56 CapR[7,Cleaning]
-                    NU           750                         750            18 
-    57 CapR[7,Cooking]
-                    B            750                         750 
-    58 CapR[7,Packing]
-                    B            750                         750 
-    59 CapR[8,Cleaning]
-                    NU           750                         750            19 
-    60 CapR[8,Cooking]
-                    B            750                         750 
-    61 CapR[8,Packing]
-                    B            750                         750 
-    62 CapR[9,Cleaning]
-                    NU           750                         750            10 
-    63 CapR[9,Cooking]
-                    B            750                         750 
-    64 CapR[9,Packing]
-                    B            750                         750 
-    65 CapR[10,Cleaning]
-                    NU           750                         750            10 
-    66 CapR[10,Cooking]
-                    B            750                         750 
-    67 CapR[10,Packing]
-                    B            750                         750 
-    68 CapR[11,Cleaning]
-                    NU           750                         750            10 
-    69 CapR[11,Cooking]
-                    B            750                         750 
-    70 CapR[11,Packing]
-                    B            750                         750 
-    71 CapR[12,Cleaning]
-                    NU           750                         750            10 
-    72 CapR[12,Cooking]
-                    B            750                         750 
-    73 CapR[12,Packing]
-                    B            750                         750 
-    74 CapC[1,Cleaning]
-                    NU           850                         850            13 
-    75 CapC[1,Cooking]
-                    B            850                         850 
-    76 CapC[1,Packing]
-                    B            850                         850 
-    77 CapC[2,Cleaning]
-                    NU           850                         850            25 
-    78 CapC[2,Cooking]
-                    B            850                         850 
-    79 CapC[2,Packing]
-                    B            850                         850 
-    80 CapC[3,Cleaning]
-                    NU           850                         850            28 
-    81 CapC[3,Cooking]
-                    B            850                         850 
-    82 CapC[3,Packing]
-                    B            850                         850 
-    83 CapC[4,Cleaning]
-                    NU           850                         850            32 
-    84 CapC[4,Cooking]
-                    B            850                         850 
-    85 CapC[4,Packing]
-                    B            850                         850 
-    86 CapC[5,Cleaning]
-                    NU           850                         850            32 
-    87 CapC[5,Cooking]
-                    B            850                         850 
-    88 CapC[5,Packing]
-                    B            850                         850 
-    89 CapC[6,Cleaning]
-                    NU           850                         850            30 
-    90 CapC[6,Cooking]
-                    B            850                         850 
-    91 CapC[6,Packing]
-                    B            850                         850 
-    92 CapC[7,Cleaning]
-                    NU           850                         850            35 
-    93 CapC[7,Cooking]
-                    B            850                         850 
-    94 CapC[7,Packing]
-                    B            850                         850 
-    95 CapC[8,Cleaning]
-                    NU           850                         850            30 
-    96 CapC[8,Cooking]
-                    B            850                         850 
-    97 CapC[8,Packing]
-                    B            850                         850 
-    98 CapC[9,Cleaning]
-                    NU           850                         850            35 
-    99 CapC[9,Cooking]
-                    B            850                         850 
-   100 CapC[9,Packing]
-                    B            850                         850 
-   101 CapC[10,Cleaning]
-                    NU           850                         850            33 
-   102 CapC[10,Cooking]
-                    B            850                         850 
-   103 CapC[10,Packing]
-                    B            850                         850 
-   104 CapC[11,Cleaning]
-                    NU           850                         850            20 
-   105 CapC[11,Cooking]
-                    B            850                         850 
-   106 CapC[11,Packing]
-                    B            850                         850 
-   107 CapC[12,Cleaning]
-                    NU           850                         850            10 
-   108 CapC[12,Cooking]
-                    B            850                         850 
-   109 CapC[12,Packing]
-                    B            850                         850 
-   110 CapI[1,Cleaning]
-                    NU          1200                        1200            10 
-   111 CapI[1,Cooking]
-                    B           1200                        1200 
-   112 CapI[1,Packing]
-                    B           1200                        1200 
-   113 CapI[2,Cleaning]
-                    NU          1200                        1200            10 
-   114 CapI[2,Cooking]
-                    B           1200                        1200 
-   115 CapI[2,Packing]
-                    B           1200                        1200 
-   116 CapI[3,Cleaning]
-                    NU          1200                        1200            10 
-   117 CapI[3,Cooking]
-                    B           1200                        1200 
-   118 CapI[3,Packing]
-                    B           1200                        1200 
-   119 CapI[4,Cleaning]
-                    NU          1200                        1200            10 
-   120 CapI[4,Cooking]
-                    B           1200                        1200 
-   121 CapI[4,Packing]
-                    B           1200                        1200 
-   122 CapI[5,Cleaning]
-                    NU          1200                        1200            10 
-   123 CapI[5,Cooking]
-                    B           1200                        1200 
-   124 CapI[5,Packing]
-                    B           1200                        1200 
-   125 CapI[6,Cleaning]
-                    NU          1200                        1200            15 
-   126 CapI[6,Cooking]
-                    B           1200                        1200 
-   127 CapI[6,Packing]
-                    B           1200                        1200 
-   128 CapI[7,Cleaning]
-                    NU          1200                        1200            42 
-   129 CapI[7,Cooking]
-                    B           1200                        1200 
-   130 CapI[7,Packing]
-                    B           1200                        1200 
-   131 CapI[8,Cleaning]
-                    NU          1200                        1200            45 
-   132 CapI[8,Cooking]
-                    B           1200                        1200 
-   133 CapI[8,Packing]
-                    B           1200                        1200 
-   134 CapI[9,Cleaning]
-                    NU          1200                        1200            20 
-   135 CapI[9,Cooking]
-                    B           1200                        1200 
-   136 CapI[9,Packing]
-                    B           1200                        1200 
-   137 CapI[10,Cleaning]
-                    NU          1200                        1200            20 
-   138 CapI[10,Cooking]
-                    B           1200                        1200 
-   139 CapI[10,Packing]
-                    B           1200                        1200 
-   140 CapI[11,Cleaning]
-                    NU          1200                        1200            15 
-   141 CapI[11,Cooking]
-                    B           1200                        1200 
-   142 CapI[11,Packing]
-                    B           1200                        1200 
-   143 CapI[12,Cleaning]
-                    NU          1200                        1200            12 
-   144 CapI[12,Cooking]
-                    B           1200                        1200 
-   145 CapI[12,Packing]
-                    B           1200                        1200 
+    38 CapR[1]      NU           750                         750            12 
+    39 CapR[2]      NU           750                         750            10 
+    40 CapR[3]      NU           750                         750            10 
+    41 CapR[4]      NU           750                         750            10 
+    42 CapR[5]      NU           750                         750            22 
+    43 CapR[6]      NU           750                         750            22 
+    44 CapR[7]      NU           750                         750            18 
+    45 CapR[8]      NU           750                         750            19 
+    46 CapR[9]      NU           750                         750            10 
+    47 CapR[10]     NU           750                         750            10 
+    48 CapR[11]     NU           750                         750            10 
+    49 CapR[12]     NU           750                         750            10 
+    50 CapC[1]      NU           850                         850            13 
+    51 CapC[2]      NU           850                         850            25 
+    52 CapC[3]      NU           850                         850            28 
+    53 CapC[4]      NU           850                         850            32 
+    54 CapC[5]      NU           850                         850            32 
+    55 CapC[6]      NU           850                         850            30 
+    56 CapC[7]      NU           850                         850            35 
+    57 CapC[8]      NU           850                         850            30 
+    58 CapC[9]      NU           850                         850            35 
+    59 CapC[10]     NU           850                         850            33 
+    60 CapC[11]     NU           850                         850            20 
+    61 CapC[12]     NU           850                         850            10 
+    62 CapI[1]      NU          1200                        1200            10 
+    63 CapI[2]      NU          1200                        1200            10 
+    64 CapI[3]      NU          1200                        1200            10 
+    65 CapI[4]      NU          1200                        1200            10 
+    66 CapI[5]      NU          1200                        1200            10 
+    67 CapI[6]      NU          1200                        1200            15 
+    68 CapI[7]      NU          1200                        1200            42 
+    69 CapI[8]      NU          1200                        1200            45 
+    70 CapI[9]      NU          1200                        1200            20 
+    71 CapI[10]     NU          1200                        1200            20 
+    72 CapI[11]     NU          1200                        1200            15 
+    73 CapI[12]     NU          1200                        1200            12 
 
    No. Column name  St   Activity     Lower bound   Upper bound    Marginal
 ------ ------------ -- ------------- ------------- ------------- -------------

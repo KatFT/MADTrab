@@ -3,7 +3,6 @@ param nI :=12; #meses
 set PROD := R C I;
 set TRAB := Cleaning Cooking Packing;
 
-
 #para tabela venus
 param venus: R C I :=
 			1 12 13 10

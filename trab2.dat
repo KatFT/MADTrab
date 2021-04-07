@@ -1,6 +1,6 @@
 param Limit :=1000; # limite de cada planeta por mes
 param nI :=12; #meses
-#param pagarUni :=1;
+param pagarUni :=1;
 set PROD := R C I;
 set TRAB := Cleaning Cooking Packing;
 set PLAT := Venus Mars Mercury;

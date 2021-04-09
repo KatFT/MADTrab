@@ -29,7 +29,7 @@ M_Mandados {i in B,l in PLAT} : sum {p in PROD} vendeu[l,p,i] <= Limit;
 
 #qnt q posso produzir
 
-Cap {i in B, t in TRAB,p in PROD} :sum {l in PLAT} produzido[l,p,i]<=producao[t,p];
+Cap {i in B, t in TRAB} :sum {l in PLAT,p in PROD} produzido[l,p,i]/producao[t,p]<=1;
 #------------------------------------#
 
 solve;

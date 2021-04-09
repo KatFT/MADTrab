@@ -20,7 +20,7 @@ maximize lucro:
 #restriçoes----------------------------------------
 M_Mandados {i in I,l in PLAT} : sum {p in PROD} vendeu[l,p,i] <= Limit; #limite de marmelada por planeta
 
-Cap {i in I,t in TRAB, p in PROD} :sum {l in PLAT} vendeu[l,p,i]<= producao[t,p];#capacidade de produção das marmeladas
+Cap {i in I,t in TRAB} :sum {p in PROD,l in PLAT} vendeu[l,p,i]/producao[t,p]<= 1;#capacidade de produção das marmeladas
 #---------------------------------------------------
 
 solve;
